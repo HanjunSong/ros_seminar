@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>twist_commander</name>
+  <version>0.0.0</version>
+  <description>
+  Publish twist msg to control turtlesim and kobuki
+  </description>
+  <maintainer email="hanjun3669@kaist.ac.kr">Hanjun Song</maintainer>
+  <license>BSD</license>
+
+  <author email="hanjun3669@kaist.ac.kr">Hanjun Song</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>rospy</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
